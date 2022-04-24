@@ -1,0 +1,20 @@
+.about {
+  margin-top: 250px;
+
+  &-title {
+    font-size: $fs-60;
+    line-height: $lh-79;
+    font-weight: $fw-700;
+    font-family: $font-play;
+    color: $brand-color;
+  }
+  &-text-wrap {
+    padding: 60px ;
+  }
+  &-text {
+    font-size: $fs-20;
+    font-weight: $fw-400;
+    line-height: $lh-32;
+    font-family: $font-Manrope;
+  }
+}

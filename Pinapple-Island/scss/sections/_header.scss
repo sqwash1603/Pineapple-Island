@@ -1,0 +1,29 @@
+.header {
+  &-text {
+    padding: 50px 45px 40px 60px;
+    width: 786px;
+    top: 125px;
+    left: 0;
+  }
+
+  &-title {
+    font-size: $fs-64;
+    line-height: $lh-85;
+    font-weight: $fw-700;
+    font-family: $font-play;
+  }
+
+  &-sub-topic {
+    font-size: $fs-20;
+    font-weight: $fw-400;
+    line-height: $lh-36;
+    font-family: $font-Manrope;
+  }
+  &-bg {
+    background-image: url(../assets/unsplash_XbwHrt87mQ0.png);
+    background-repeat: no-repeat;
+    height: 717px;
+    background-size: 70% 100%;
+    background-position-x: 100%;
+  }
+}

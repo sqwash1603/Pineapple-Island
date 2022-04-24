@@ -1,0 +1,11 @@
+.offer {
+  margin-top: 250px;
+
+  &-title {
+    font-size: $fs-60;
+    line-height: $lh-79;
+    font-weight: $fw-700;
+    font-family: $font-play;
+    color: $brand-color;
+  }
+}
