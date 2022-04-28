@@ -1,0 +1,23 @@
+.gallery {
+  margin-top: 250px;
+}
+&-title {
+  font-size: $fs-60;
+  line-height: $lh-79;
+  font-weight: $fw-700;
+  font-family: $font-play;
+  color: $brand-color;
+  margin-left: 350px;
+  margin-right: 300px;
+}
+&-text-wrap {
+  padding: 60px ;
+}
+&-text {
+  font-size: $fs-20;
+  font-weight: $fw-400;
+  line-height: 180%;
+  font-family: $font-Manrope;
+  color:  #263238;
+  text-align: center;
+}
