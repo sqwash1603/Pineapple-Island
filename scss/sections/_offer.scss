@@ -7,17 +7,31 @@
     font-weight: $fw-700;
     font-family: $font-play;
     color: $brand-color;
-    margin-left: 350px;
+    margin-left: 450px;
     margin-right: 300px;
   }
   &-img{
     position: relative;
-    width: 500px;
     left: 100px;
     top: 100px;
     
   }
-  &-vectors{
+  &-background{
+    background-color: #0E204E;
+    width: 200px;
+    height: 300px;
+    margin-top: 154px;
+  }
+  &-vectors1{
+    position: relative;
     
+    top: 350px;
+    justify-content: space-around;
+  }
+  &-vectors2{
+    position: relative;
+   
+    top: 350px;
+    justify-content: space-around;
   }
 }

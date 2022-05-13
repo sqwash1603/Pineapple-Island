@@ -1,10 +1,55 @@
 .connect {
   margin-top: 250px;
-}
+
 &-title {
   font-size: $fs-60;
-  line-height: $lh-79;
-  font-weight: $fw-700;
-  font-family: $font-play;
-  color: $brand-color;
+    line-height: $lh-79;
+    font-weight: $fw-700;
+    font-family: $font-play;
+    color: $brand-color;
+    margin-left: 670px;
+    margin-right: 300px;
+}
+&-text-wrap {
+  padding: 20px ;
+}
+&-text {
+  width: 726px;
+  height: 72px;
+  font-family: $font-Manrope;
+  font-style: normal;
+  font-weight: $fw-400;
+  font-size: $fs-20;
+  line-height: 180%;
+  margin-left: 550px;
+  
+}
+&-validate-input{
+  align-items: center;
+  font-family: $font-Manrope;
+  font-size: $fs-20;
+  font-weight: $fw-400;
+  font-style: normal;
+  line-height: 180%;
+  color: black;
+  
+
+}
+&-input{
+  width: 909px;
+  height: 65px;
+  left: 505px;
+  top: 8712px;
+  border: 1px solid #2D2B2B;
+  box-sizing: border-box;
+  margin-left: 390px;
+}
+&-message{ 
+  height: 300px;
+  
+}
+&-btn{
+  align-items: center;
+  margin-right: 850px;
+}
 }
